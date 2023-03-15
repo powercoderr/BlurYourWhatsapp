@@ -1,0 +1,16 @@
+{
+    "manifest_version":3,
+    "description": "Keep your privacy by bluring the message",
+    "version":"1.0",
+    "name":"BlurYourWhatsapp",
+    "content_scripts":[
+      {
+       "matches":["https://web.whatsapp.com/"],
+       "js":["main.js"]
+      }
+    ],
+    "icons": {
+      "48": "eye-icon.png",
+      "96": "eye-icon.png"
+    }
+  }
